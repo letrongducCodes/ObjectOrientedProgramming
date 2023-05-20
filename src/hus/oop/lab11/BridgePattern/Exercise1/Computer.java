@@ -1,15 +1,14 @@
 package hus.oop.lab11.BridgePattern.Exercise1;
 
 public abstract class Computer {
-    private OperatingSystem os;
-
-    public void startup() {
-        os.startup();
+    protected OperatingSystem os;
+    public Computer(OperatingSystem os)
+    {
+        this.os = os;
     }
 
-    public void browseInternet(String url) {
-        os.loadUrl(url);
-    }
+    public abstract void startup();
 
+    public abstract void browseInternet(String url);
     public abstract boolean canMoveComputer();
 }

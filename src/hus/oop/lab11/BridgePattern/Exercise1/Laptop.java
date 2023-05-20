@@ -1,18 +1,23 @@
 package hus.oop.lab11.BridgePattern.Exercise1;
 
 public class Laptop extends Computer {
-    @Override
-    public void startup() {
-        super.startup();
+    public Laptop(OperatingSystem logic)
+    {
+        super(logic);
     }
-
     @Override
-    public void browseInternet(String url) {
-        super.browseInternet(url);
+    public void startup()
+    {
+        os.startup();
     }
-
     @Override
-    public boolean canMoveComputer() {
+    public void browseInternet(String url)
+    {
+        os.loadUrl(url);
+    }
+    @Override
+    public boolean canMoveComputer()
+    {
         return true;
     }
 }
