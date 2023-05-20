@@ -9,6 +9,6 @@ public class BusinessBook implements Book {
     }
 
     public String getPublisher() {
-        return " ";
+        return "The publisher of business book";
     }
 }

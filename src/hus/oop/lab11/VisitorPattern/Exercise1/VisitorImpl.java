@@ -1,15 +1,18 @@
 package hus.oop.lab11.VisitorPattern.Exercise1;
 
 public class VisitorImpl implements Visitor {
-    public void visit(BusinessBook book) {
-
+    @Override
+    public void visit(BusinessBook a) {
+        System.out.println(a.getPublisher());
     }
 
-    public void visit(DesignPatternBook book) {
-
+    @Override
+    public void visit(DesignPatternBook w) {
+        System.out.println(w.getBestSeller());
     }
 
-    public void visit(JavaCoreBook book) {
-
+    @Override
+    public void visit(JavaCoreBook g) {
+        System.out.println(g.getFavouriteBook());
     }
 }

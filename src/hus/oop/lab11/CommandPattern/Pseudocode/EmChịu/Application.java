@@ -1,7 +1,4 @@
-package hus.oop.lab11.CommandPattern.Pseudocode;
-
-import javax.sql.RowSet;
-import java.util.function.Function;
+package hus.oop.lab11.CommandPattern.Pseudocode.EmChịu;
 
 public class Application {
     String clipboard;

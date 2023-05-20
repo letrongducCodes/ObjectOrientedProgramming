@@ -1,4 +1,4 @@
-package hus.oop.lab11.CommandPattern.Pseudocode;
+package hus.oop.lab11.CommandPattern.Pseudocode.EmChịu;
 
 public abstract class Command {
     protected Application app;

@@ -1,16 +1,17 @@
 package hus.oop.lab11.VisitorPattern.Exercise1;
 
-public class JavaCoreBook extends ProgramingBook {
+public class JavaCoreBook implements ProgramingBook {
     @Override
     public void accept(Visitor v) {
         v.visit(this);
     }
 
+    @Override
     public String getResource() {
-        return " ";
+        return "https://github.com/gpcodervn/Java-Tutorial/";
     }
 
     public String getFavouriteBook() {
-        return " ";
+        return "The most favourite book of java core";
     }
 }
