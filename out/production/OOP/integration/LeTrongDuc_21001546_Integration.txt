@@ -1,0 +1,19 @@
+Đa thức: 1.00 + 3.00x + 4.00x^2 + 8.00x^3
+Đa thức đã đạo hàm: 3.00 + 8.00x + 24.00x^2
+Đa thức 1: 1.00 + 3.00x + 4.00x^2 + 8.00x^3
+Đa thức 2: 2.00 + 2.00x
+Tổng của 2 đa thức là: 3.00 + 5.00x + 4.00x^2 + 8.00x^3
+Hiệu của 2 đa thức là: -1.00 + 1.00x + 4.00x^2 + 8.00x^3
+Tích của 2 đa thức là: 2.00 + 8.00x + 14.00x^2 + 24.00x^3 + 16.00x^4
+Đa thức 1: 1.00 + 3.00x + 4.00x^2 + 8.00x^3
+Đa thức 1 sau khi sửa hệ số tại 1 phần tử là: 1.00 + 2.00x + 4.00x^2 + 8.00x^3
+Đa thức 2: 1.00 + 3.00x + 4.00x^2 + 5.00x^3
+Tổng của 2 đa thức là: 2.00 + 5.00x + 8.00x^2 + 13.00x^3
+Hiệu của 2 đa thức là:  + -1.00x + 3.00x^3
+Tích của 2 đa thức là: 1.00 + 5.00x + 14.00x^2 + 33.00x^3 + 50.00x^4 + 52.00x^5 + 40.00x^6
+Giá trị của đa thức 1 tại x = 2.0 là: 85.0
+Giá trị của đa thức 2 tại x = 2.0 là: 63.0
+1.00 + -3.00x + 3.00x^2 + -1.00x^3
+Nghiệm của đa thức theo phương pháp MidPointRule là: 2000199.999971235
+Nghiệm của đa thức theo phương pháp TrapezoidRule là: 2000200.0000579671
+Nghiệm của đa thức theo phương pháp SimpsonRule là: -0.0
